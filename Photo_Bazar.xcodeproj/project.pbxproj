@@ -12,6 +12,12 @@
 		37081AEF23D96B96003880C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37081AED23D96B96003880C1 /* Main.storyboard */; };
 		37081AF123D96B9C003880C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37081AF023D96B9C003880C1 /* Assets.xcassets */; };
 		37081AF423D96B9C003880C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37081AF223D96B9C003880C1 /* LaunchScreen.storyboard */; };
+		37081B0223D96D11003880C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37081B0123D96D11003880C1 /* AppDelegate.swift */; };
+		37081B0423D96D11003880C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37081B0323D96D11003880C1 /* ViewController.swift */; };
+		37081B0723D96D11003880C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37081B0523D96D11003880C1 /* Main.storyboard */; };
+		37081B0923D96D18003880C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37081B0823D96D18003880C1 /* Assets.xcassets */; };
+		37081B0C23D96D18003880C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37081B0A23D96D18003880C1 /* LaunchScreen.storyboard */; };
+		37081B1223D96F0E003880C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37081AF023D96B9C003880C1 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +28,24 @@
 		37081AF023D96B9C003880C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37081AF323D96B9C003880C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37081AF523D96B9C003880C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37081AFF23D96D11003880C1 /* Photo_Bazar_Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photo_Bazar_Admin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37081B0123D96D11003880C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37081B0323D96D11003880C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37081B0623D96D11003880C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37081B0823D96D18003880C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37081B0B23D96D18003880C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37081B0D23D96D18003880C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		37081AE323D96B95003880C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37081AFC23D96D11003880C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				37081AE823D96B96003880C1 /* Photo_Bazar */,
+				37081B0023D96D11003880C1 /* Photo_Bazar_Admin */,
 				37081AE723D96B96003880C1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				37081AE623D96B96003880C1 /* Photo_Bazar.app */,
+				37081AFF23D96D11003880C1 /* Photo_Bazar_Admin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +76,35 @@
 		37081AE823D96B96003880C1 /* Photo_Bazar */ = {
 			isa = PBXGroup;
 			children = (
+				37081B1123D96DB7003880C1 /* Shared_Assets */,
 				37081AE923D96B96003880C1 /* AppDelegate.swift */,
 				37081AEB23D96B96003880C1 /* ViewController.swift */,
 				37081AED23D96B96003880C1 /* Main.storyboard */,
-				37081AF023D96B9C003880C1 /* Assets.xcassets */,
 				37081AF223D96B9C003880C1 /* LaunchScreen.storyboard */,
 				37081AF523D96B9C003880C1 /* Info.plist */,
 			);
 			path = Photo_Bazar;
+			sourceTree = "<group>";
+		};
+		37081B0023D96D11003880C1 /* Photo_Bazar_Admin */ = {
+			isa = PBXGroup;
+			children = (
+				37081B0123D96D11003880C1 /* AppDelegate.swift */,
+				37081B0323D96D11003880C1 /* ViewController.swift */,
+				37081B0523D96D11003880C1 /* Main.storyboard */,
+				37081B0823D96D18003880C1 /* Assets.xcassets */,
+				37081B0A23D96D18003880C1 /* LaunchScreen.storyboard */,
+				37081B0D23D96D18003880C1 /* Info.plist */,
+			);
+			path = Photo_Bazar_Admin;
+			sourceTree = "<group>";
+		};
+		37081B1123D96DB7003880C1 /* Shared_Assets */ = {
+			isa = PBXGroup;
+			children = (
+				37081AF023D96B9C003880C1 /* Assets.xcassets */,
+			);
+			path = Shared_Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +127,23 @@
 			productReference = 37081AE623D96B96003880C1 /* Photo_Bazar.app */;
 			productType = "com.apple.product-type.application";
 		};
+		37081AFE23D96D11003880C1 /* Photo_Bazar_Admin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37081B0E23D96D18003880C1 /* Build configuration list for PBXNativeTarget "Photo_Bazar_Admin" */;
+			buildPhases = (
+				37081AFB23D96D11003880C1 /* Sources */,
+				37081AFC23D96D11003880C1 /* Frameworks */,
+				37081AFD23D96D11003880C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Photo_Bazar_Admin;
+			productName = Photo_Bazar_Admin;
+			productReference = 37081AFF23D96D11003880C1 /* Photo_Bazar_Admin.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +155,9 @@
 				ORGANIZATIONNAME = "Md. Saiful Islam";
 				TargetAttributes = {
 					37081AE523D96B95003880C1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					37081AFE23D96D11003880C1 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -113,6 +176,7 @@
 			projectRoot = "";
 			targets = (
 				37081AE523D96B95003880C1 /* Photo_Bazar */,
+				37081AFE23D96D11003880C1 /* Photo_Bazar_Admin */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +192,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37081AFD23D96D11003880C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37081B0C23D96D18003880C1 /* LaunchScreen.storyboard in Resources */,
+				37081B0923D96D18003880C1 /* Assets.xcassets in Resources */,
+				37081B1223D96F0E003880C1 /* Assets.xcassets in Resources */,
+				37081B0723D96D11003880C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,6 +212,15 @@
 			files = (
 				37081AEC23D96B96003880C1 /* ViewController.swift in Sources */,
 				37081AEA23D96B96003880C1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37081AFB23D96D11003880C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37081B0423D96D11003880C1 /* ViewController.swift in Sources */,
+				37081B0223D96D11003880C1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +239,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				37081AF323D96B9C003880C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		37081B0523D96D11003880C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37081B0623D96D11003880C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37081B0A23D96D18003880C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37081B0B23D96D18003880C1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,6 +412,40 @@
 			};
 			name = Release;
 		};
+		37081B0F23D96D18003880C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Photo_Bazar_Admin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iosProject.Photo-Bazar-Admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37081B1023D96D18003880C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Photo_Bazar_Admin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iosProject.Photo-Bazar-Admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -329,6 +463,15 @@
 			buildConfigurations = (
 				37081AF923D96B9C003880C1 /* Debug */,
 				37081AFA23D96B9C003880C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37081B0E23D96D18003880C1 /* Build configuration list for PBXNativeTarget "Photo_Bazar_Admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37081B0F23D96D18003880C1 /* Debug */,
+				37081B1023D96D18003880C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
